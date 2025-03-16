@@ -1,0 +1,40 @@
+# CyberPatriot Windows 10 Training - Vulnerabilities and Fixes
+
+## Forensics Questions
+1. **Q1:** Decode Affine cipher (`a=1`, `b=3`): 
+   - **Answer:** "Next Generation Cyber Warrior"
+   - **Reason:** Teaches file forensics and decryption techniques.
+
+2. **Q2:** Missing MFA requirement: 
+   - **Answer:** "Something You Are"
+   - **Reason:** Highlights the importance of Multi-Factor Authentication in security.
+
+## User Management
+- **Remove Unauthorized Users:** `cfrazier`, `vecna`.
+- **Restrict Admin Access:** `bbradshaw`, `bavalone`.
+- **Create User:** Add `alexei` to system.
+- **Create Group:** Add group `hypersonic` and assign required members.
+
+## Security Updates and Policies
+- **Firewall:** Ensure it's enabled.
+- **Remote Assistance:** Disable connections.
+- **Windows Updates:** Install all major updates.
+- **Application Updates:** Update Firefox to the latest version.
+- **Password Policies:**
+  - Set a maximum password age of **90 days**.
+  - Configure account lockout after **10 failed attempts**.
+- **Audit Policies:** Enable audit credential validation for failures.
+- **Restrict Access:** Disable anonymous enumeration of SAM accounts.
+  
+## Removing Unauthorized Programs
+- Delete:
+  - **Prohibited Affine Text File**
+  - Applications like `Wireshark`, `NetStumbler`, and `PC Cleaner`.
+
+## Penalty Avoidance
+- Ensure required software (e.g., Firefox, GIMP, Inkscape) is installed in default locations.
+- Maintain a lockout threshold between **5-50 attempts** to balance security with usability.
+
+---
+
+This Markdown strikes a balance between brevity and the detail you need for GitHub. Let me know if you'd like further tweaks!
